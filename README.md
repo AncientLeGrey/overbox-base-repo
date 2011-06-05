@@ -6,9 +6,11 @@ install a CentOS [Vagrant](http://vagrantup.com/) base box via kickstart.
 Simply install the vagrant-boxification RPM.
 
 ### Install with kickstart
-Add these two repos in your ks file:
+Add these two yum-repos in your ks file:
+
 * repo --name=overbox-base-repo --baseurl=http://ancientlegrey.github.com/overbox-base-repo/noarch
   repo --name=rpmforge --baseurl=http://apt.sw.be/redhat/el5/en/i386/rpmforge
+
 * List vagrant-boxification in the %packages section.
 
 Have a look at the example kickstart file in the kickstart directory. It
