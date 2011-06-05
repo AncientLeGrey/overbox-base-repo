@@ -1,0 +1,7 @@
+[overbox-base-repo]
+name=overbox-base-repo $basearch
+baseurl=http://ancientlegrey.github.com/overbox-base-repo/noarch
+enabled=1
+gpgcheck=0
+priority=1
+    
