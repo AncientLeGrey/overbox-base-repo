@@ -9,6 +9,7 @@ Simply install the vagrant-boxification RPM.
 Add these two yum-repos in your ks file:
 
 * repo --name=overbox-base-repo --baseurl=http://ancientlegrey.github.com/overbox-base-repo/noarch
+
   repo --name=rpmforge --baseurl=http://apt.sw.be/redhat/el5/en/i386/rpmforge
 
 * List vagrant-boxification in the %packages section.
